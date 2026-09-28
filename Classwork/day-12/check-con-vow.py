@@ -8,7 +8,7 @@ cons = 0
 
 for i in range(len(a)):
     if a[i].isalpha():
-        if a[i] in "aeiou" or a[i] in "AEIOU":
+        if a[i] in "aeiouAEIOU":
             vo += 1
         else:
             cons += 1
